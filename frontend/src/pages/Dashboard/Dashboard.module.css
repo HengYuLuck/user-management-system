@@ -1,0 +1,66 @@
+.dashboard {
+  padding: 24px;
+}
+
+.pageTitle {
+  margin-bottom: 24px !important;
+  display: flex;
+  align-items: center;
+}
+
+.titleIcon {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.welcomeText {
+  display: block;
+  color: #666;
+  margin-bottom: 32px;
+  font-size: 16px;
+}
+
+.statsCards {
+  margin-bottom: 32px;
+}
+
+.statsCards :global(.ant-card) {
+  transition: all 0.3s;
+}
+
+.statsCards :global(.ant-card:hover) {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.charts {
+  margin-bottom: 32px;
+}
+
+.chartCard {
+  height: 100%;
+}
+
+.chartCard :global(.ant-card-head-title) {
+  font-weight: 500;
+}
+
+.recentUsersCard {
+  margin-bottom: 24px;
+}
+
+.userTable :global(.ant-table-thead > tr > th) {
+  background-color: #fafafa;
+  font-weight: 500;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.errorAlert {
+  margin: 24px;
+} 

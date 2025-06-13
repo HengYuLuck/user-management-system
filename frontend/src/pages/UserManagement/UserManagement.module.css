@@ -1,0 +1,63 @@
+.userManagement {
+  padding: 24px;
+}
+
+.pageTitle {
+  margin-bottom: 24px !important;
+  display: flex;
+  align-items: center;
+}
+
+.titleIcon {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.filterCard {
+  margin-bottom: 24px;
+}
+
+.filterForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.formItem {
+  margin-bottom: 0 !important;
+  flex-shrink: 0;
+}
+
+@media (max-width: 576px) {
+  .formItem {
+    width: 100%;
+  }
+}
+
+.tableCard :global(.ant-table-thead > tr > th) {
+  background-color: #fafafa;
+  font-weight: 500;
+}
+
+.tableCard :global(.ant-table-row:hover) {
+  cursor: pointer;
+}
+
+.tableCard :global(.ant-tag) {
+  min-width: 60px;
+  text-align: center;
+}
+
+.tableCard :global(.ant-space) {
+  gap: 4px !important;
+}
+
+.tableCard :global(.ant-btn-link) {
+  padding: 4px;
+  height: auto;
+}
+
+.tableCard :global(.ant-btn-link:hover) {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+} 

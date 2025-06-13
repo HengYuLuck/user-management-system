@@ -1,0 +1,22 @@
+.layout-logo {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1890ff;
+  border-bottom: 1px solid #f0f0f0;
+  background: #fff;
+}
+
+.user-dropdown:hover {
+  background-color: #f5f5f5;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .layout-logo {
+    font-size: 16px;
+  }
+} 

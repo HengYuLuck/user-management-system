@@ -1,0 +1,49 @@
+.auditLogs {
+  padding: 24px;
+}
+
+.pageTitle {
+  margin-bottom: 24px !important;
+  display: flex;
+  align-items: center;
+}
+
+.titleIcon {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.filterCard {
+  margin-bottom: 24px;
+}
+
+.filterForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.formItem {
+  margin-bottom: 0 !important;
+  flex-shrink: 0;
+}
+
+@media (max-width: 576px) {
+  .formItem {
+    width: 100%;
+  }
+}
+
+.tableCard :global(.ant-table-thead > tr > th) {
+  background-color: #fafafa;
+  font-weight: 500;
+}
+
+.tableCard :global(.ant-table-row:hover) {
+  cursor: pointer;
+}
+
+.tableCard :global(.ant-tag) {
+  min-width: 70px;
+  text-align: center;
+} 
